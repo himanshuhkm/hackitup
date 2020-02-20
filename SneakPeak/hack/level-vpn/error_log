@@ -1,0 +1,77 @@
+[26-Jan-2019 13:01:20 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:01:20 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:01:21 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 34
+[26-Jan-2019 13:01:21 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 104
+[26-Jan-2019 13:02:38 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:02:38 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:02:39 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 34
+[26-Jan-2019 13:02:39 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 104
+[26-Jan-2019 13:02:50 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:02:50 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:02:51 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 34
+[26-Jan-2019 13:02:51 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 104
+[26-Jan-2019 13:03:42 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:03:42 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:03:43 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 34
+[26-Jan-2019 13:03:43 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 104
+[26-Jan-2019 13:06:05 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:06:05 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:06:06 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 34
+[26-Jan-2019 13:06:06 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 104
+[26-Jan-2019 13:06:25 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:06:25 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:21:59 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:21:59 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 2
+[26-Jan-2019 13:22:00 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 34
+[26-Jan-2019 13:22:00 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/index.php on line 104
+[26-Jan-2019 13:24:07 UTC] PHP Notice:  Undefined index: JSESSIONID in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/getStuff.php on line 3
+[26-Jan-2019 13:24:07 UTC] PHP Notice:  Undefined index: username in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/getStuff.php on line 4
+[26-Jan-2019 13:24:07 UTC] PHP Notice:  Undefined index: password in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/getStuff.php on line 5
+[26-Jan-2019 15:59:30 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-10/index.php on line 2
+[26-Jan-2019 15:59:30 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-10/index.php on line 2
+[26-Jan-2019 15:59:31 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-10/index.php on line 34
+[26-Jan-2019 15:59:31 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-10/index.php on line 104
+[26-Jan-2019 19:09:59 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:09:59 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:00 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 104
+[26-Jan-2019 19:10:00 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:00 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:01 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 104
+[26-Jan-2019 19:10:02 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:02 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:03 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 104
+[26-Jan-2019 19:10:04 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:04 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:05 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 104
+[26-Jan-2019 19:10:05 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:05 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:06 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 104
+[26-Jan-2019 19:10:07 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:07 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:08 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 104
+[26-Jan-2019 19:10:09 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:09 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:10 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 104
+[26-Jan-2019 19:10:14 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:14 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:10:15 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 34
+[26-Jan-2019 19:10:16 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 104
+[26-Jan-2019 19:11:56 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:11:56 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:11:57 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 34
+[26-Jan-2019 19:11:57 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 104
+[26-Jan-2019 19:14:55 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:14:55 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[26-Jan-2019 19:14:56 UTC] PHP Notice:  Undefined index: email in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 34
+[27-Jan-2019 07:32:42 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 07:32:42 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 07:32:55 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 07:32:55 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 07:33:30 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 07:33:30 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 07:40:53 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 07:40:53 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 09:56:04 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 09:56:04 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 09:56:59 UTC] PHP Warning:  include(analytics.html): failed to open stream: No such file or directory in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2
+[27-Jan-2019 09:56:59 UTC] PHP Warning:  include(): Failed opening 'analytics.html' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-9/index.php on line 2

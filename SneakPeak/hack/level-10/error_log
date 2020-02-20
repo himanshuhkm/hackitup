@@ -1,0 +1,4 @@
+[27-Jan-2019 20:17:09 UTC] PHP Notice:  Undefined index: _username in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-10/checklogin.php on line 2
+[27-Jan-2019 20:17:09 UTC] PHP Notice:  Undefined index: _password in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-10/checklogin.php on line 3
+[27-Jan-2019 20:17:14 UTC] PHP Notice:  Undefined index: _username in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-10/checklogin.php on line 2
+[27-Jan-2019 20:17:14 UTC] PHP Notice:  Undefined index: _password in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-10/checklogin.php on line 3

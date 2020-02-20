@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /v1/
+Disallow: /v2/
+Disallow: /v2/hack
+Disallow: /v2/hack/level-9/ignoredusingrobots.txt
