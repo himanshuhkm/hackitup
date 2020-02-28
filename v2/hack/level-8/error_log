@@ -2034,3 +2034,8 @@
 [29-Jan-2019 08:52:27 UTC] PHP Notice:  Undefined index: username in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/trynalogin.php on line 3
 [29-Jan-2019 08:52:27 UTC] PHP Notice:  Undefined index: password in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/trynalogin.php on line 4
 [16-Feb-2019 14:09:13 UTC] PHP Notice:  Undefined index: food in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/myfriend.php on line 62
+[21-Feb-2019 18:03:42 UTC] PHP Notice:  Undefined index: food in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/myfriend.php on line 62
+[21-Feb-2019 18:08:18 UTC] PHP Notice:  Undefined index: username in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/trynalogin.php on line 3
+[21-Feb-2019 18:08:18 UTC] PHP Notice:  Undefined index: password in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/trynalogin.php on line 4
+[21-Feb-2019 18:09:30 UTC] PHP Notice:  Undefined index: username in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/trynalogin.php on line 3
+[21-Feb-2019 18:09:30 UTC] PHP Notice:  Undefined index: password in /home/y0p2ci1b1xae/public_html/hackitup/v2/hack/level-8/trynalogin.php on line 4

@@ -44,7 +44,7 @@ else {
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up Sneak Peak | Level 1</title>
+  <title>Hack It Up v2 | Level 1</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
     <script>
@@ -53,7 +53,7 @@ else {
 		  gtag('js', new Date());
 		  gtag('config', 'UA-125937952-1');
     </script>
-      <script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
@@ -67,7 +67,7 @@ else {
   <img id="logo" src="../../whhc.png"></div>
   <img id="text" src="../../logov2.png"></div>
   <div class="container">
-  <span class="txt anim-text-flow">Ayyyyy. We are back  with Hack It Up!</span>
+  <span class="txt anim-text-flow">Ayyyyy. We are back with the second iteration of Hack It Up!</span>
   <br/ >
   <span class="txt anim-text-flow">So? What's the most basic requirement to become a hacker?</span>
   <br/ >

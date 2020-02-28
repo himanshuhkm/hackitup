@@ -1,0 +1,292 @@
+body{
+	background-color: #111;
+}
+
+header{
+	box-shadow: none;
+	background-color: inherit;	
+}
+
+
+.ui-menu-item{
+	color: #5AA6F8;
+}
+
+.insta {
+    text-underline-position: under;
+    border-bottom: 1px dashed #5AA5F9;
+}
+
+
+#cont{
+	width: 450px;
+	height: 190px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 130px;
+	right: 0px;
+	margin: auto;
+}
+
+h1, .sub, .time{
+	width: 100%;	
+}
+
+
+h1{
+	font-size: 40pt;
+	font-weight: 700;
+	color: #5AA6F8;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+h1 span{
+	font-weight: 200;
+}
+
+
+.sub{
+	font-weight: 200;
+	font-size: 30pt;
+	color: #ccc;
+}
+
+.time{
+	margin-top: 30px;
+	font-weight: 400;	
+	color: #ddd;
+	font-weight: 300;
+}
+
+
+.time b{
+	font-weight: 500;
+
+}
+
+
+footer{
+	position: fixed;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+	color: #ddd;
+	background-color: inherit;
+	font-size: 9pt;
+	font-weight: 600;
+}
+
+footer a{
+	color: #5AA5F9;
+	transition: all 0.3s;
+}
+
+footer a:hover{
+	color: #1562b7;
+}
+
+@media only screen and (max-width: 540px) {
+	h1{
+		font-size: 30pt;
+	}
+
+	.sub{
+		font-size: 20pt;
+	}
+	
+	.time{
+		font-size: 10.5pt;
+	}
+
+	#cont{
+		width: 310px;
+	}
+
+}
+@media only screen and (max-width: 760px) {
+	
+	header{
+		overflow: hidden;		
+	}
+
+	.ui-header-mobile-menu{		
+		display: none;
+		opacity: 0;
+		background-color: inherit;
+		position: fixed;
+		top: 85px;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+	}
+
+	.ui-header-menu-open{
+		position: absolute;
+		cursor: pointer;
+		display: block;		
+		width: 39px;
+		height: 39px;
+		left: 26px;
+		top: 24px;				
+		border-radius: 100%;
+		-webkit-transition: background-color 0.4s;
+		-moz-transition: background-color 0.4s;
+		-ms-transition: background-color 0.4s;
+		transition: background-color 0.4s;		
+	}
+
+	.ui-header-menu-open-active{
+		background-color: rgba(255,255,255,0.2);
+	}	
+
+	.ui-header-menu-open-stick{
+		display: block;
+		position: relative;
+		margin: auto;
+		width: 23px;
+		height: 3px;
+		margin-top: 3px;
+		top: 9px;
+		background-color: rgb(90, 165, 249);
+	}
+
+	.ui-header-logo{
+		display: block;
+		position: absolute;
+		height: 45px;
+		margin: 0px;
+		margin-left: -20px;
+		left: 50%;
+		top: 20px;
+	}
+
+	.ui-menu-item{
+		display: none;
+		text-align: center;
+		top: 140px;		
+		text-align: center;
+		height: 45px;
+		line-height: 45px;
+		width: 70%;
+		font-weight: 500;
+		font-size: 9pt;
+		opacity: 0;
+		margin: auto;
+	}
+}
+
+
+#timer{
+	width: 328px;
+	position: relative;	
+	left: -9px;
+	margin: auto;
+	margin-top: 50px;
+	color: #fff;
+}
+
+.timer-part{
+	display: inline-block;	
+	width: 82px;
+
+}
+
+.prop{
+	font-size: 7pt;
+	font-weight: 800;
+	text-align: center;
+	margin-bottom: 4px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+
+.value{
+	text-align: center;
+	font-size: 38pt;
+	font-weight: 100;
+	height: 62px;
+}
+
+.draw-border {
+	box-shadow: inset 0 0 0 4px #58afd1;
+	color: #58afd1;
+	transition: color 0.25s 0.0833333333s;
+	position: relative;
+  }
+  .draw-border::before, .draw-border::after {
+	border: 0 solid transparent;
+	box-sizing: border-box;
+	content: '';
+	pointer-events: none;
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	right: 0;
+  }
+  .draw-border::before {
+	border-bottom-width: 4px;
+	border-left-width: 4px;
+  }
+  .draw-border::after {
+	border-top-width: 4px;
+	border-right-width: 4px;
+  }
+  .draw-border:hover {
+	color: #ffe593;
+  }
+  .draw-border:hover::before, .draw-border:hover::after {
+	border-color: #ffe593;
+	transition: border-color 0s, width 0.25s, height 0.25s;
+	width: 100%;
+	height: 100%;
+  }
+  .draw-border:hover::before {
+	transition-delay: 0s, 0s, 0.25s;
+  }
+  .draw-border:hover::after {
+	transition-delay: 0s, 0.25s, 0s;
+  }
+  
+  .btn {
+	background: none;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	line-height: 1.5;
+	font: 700 1.2rem 'Roboto Slab', sans-serif;
+	padding: 1em 2em;
+	letter-spacing: 0.05rem;
+  }
+  .btn:focus {
+	outline: 2px dotted #55d7dc;
+  }
+
+@media only screen and (max-width: 600px) {
+	.response {
+		display: block;
+	}
+	footer {
+		margin-top:40px;
+		height:80px;
+		text-align: left;
+		line-height:20px;
+	}
+	.response:nth-child(1):after {
+		content: '';
+	}
+	.place {
+		width:300px;
+		position:absolute;
+		left:25px;
+		top:0;
+
+	}
+	
+}

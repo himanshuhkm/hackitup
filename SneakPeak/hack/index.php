@@ -7,7 +7,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 <html lang="en">
 	<head>
   		<meta charset="UTF-8">
-  		<title>Hack It Up Sneak Peak | Login</title>
+  		<title>Hack It Up sneakpeak | Login</title>
   		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -42,7 +42,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 										</div>
 									</div>
 									<div class="laptop404"></div>
-									<img class="logo" src="https://whhc.in/Assets/Images/Logo.png"></div>
+									<img class="logo" src="../whhc.png"></div>
 								</div>
 							</div>
 						</div>

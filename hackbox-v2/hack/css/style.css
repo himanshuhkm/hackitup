@@ -1,0 +1,678 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #eff3f4;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  background-color: #FFF;
+  margin: 0;
+  padding: 2.25em;
+  box-sizing: border-box;
+  border: solid 1px #DDD;
+  border-radius: .5em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+form .svgContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1em;
+  border-radius: 50%;
+  pointer-events: none;
+}
+form .svgContainer div {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 50%;
+  padding-bottom: 100%;
+}
+form .svgContainer .mySVG {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+form .svgContainer:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: inherit;
+  height: inherit;
+  box-sizing: border-box;
+  border: solid 2.5px #217093;
+  border-radius: 50%;
+}
+form .inputGroup {
+  margin: 0 0 2em;
+  padding: 0;
+  position: relative;
+}
+form .inputGroup:last-of-type {
+  margin-bottom: 0;
+}
+form label {
+  margin: 0 0 12px;
+  display: block;
+  font-size: 1.25em;
+  color: #217093;
+  font-weight: 700;
+  font-family: inherit;
+}
+form input[type='email'], form input[type="text"], form input[type="number"], form input[type="url"], form input[type="search"], form input[type="password"] {
+  display: block;
+  margin: 0;
+  padding: 0 1em 0;
+  padding: .875em 1em 0;
+  background-color: #f3fafd;
+  border: solid 2px #217093;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 65px;
+  font-size: 1.55em;
+  color: #353538;
+  font-weight: 600;
+  font-family: inherit;
+  transition: box-shadow .2s linear, border-color .25s ease-out;
+}
+form input[type='email']:focus, form input[type="text"]:focus, form input[type="number"]:focus, form input[type="url"]:focus, form input[type="search"]:focus, form input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border: solid 2px #4eb8dd;
+}
+form .loginbutton {
+  display: block;
+  margin: 0;
+  padding: 1em 1em 1em;
+  background-color: #4eb8dd;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: none;
+  width: 100%;
+  height: 65px;
+  font-size: 1.55em;
+  color: #FFF;
+  font-weight: 600;
+  font-family: inherit;
+  transition: background-color .2s ease-out;
+}
+form .loginbutton:hover, form .loginbutton:active {
+  background-color: #217093;
+}
+form .inputGroup1 .helper {
+  position: absolute;
+  z-index: 1;
+  font-family: inherit;
+}
+form .inputGroup1 .helper1 {
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(1em, 2.2em) scale(1);
+          transform: translate(1em, 2.2em) scale(1);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  color: #217093;
+  font-size: 1.55em;
+  font-weight: 400;
+  opacity: .65;
+  pointer-events: none;
+  transition: opacity .2s linear, -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out, opacity .2s linear;
+  transition: transform .2s ease-out, opacity .2s linear, -webkit-transform .2s ease-out;
+}
+form .inputGroup2 .helper1 {
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(1em, 2.2em) scale(1);
+          transform: translate(1em, 2.2em) scale(1);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  color: #217093;
+  font-size: 1.55em;
+  font-weight: 400;
+  opacity: .65;
+  pointer-events: none;
+  transition: opacity .2s linear, -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out, opacity .2s linear;
+  transition: transform .2s ease-out, opacity .2s linear, -webkit-transform .2s ease-out;
+}
+form .inputGroup1.focusWithText .helper {
+  -webkit-transform: translate(1em, 1.55em) scale(0.6);
+          transform: translate(1em, 1.55em) scale(0.6);
+  opacity: 1;
+}
+form .inputGroup2 input[type="password"] {
+  padding: .4em 1em .5em;
+}
+form .inputGroup2 input[type="text"] {
+  padding: .025em 1em 0;
+}
+form .inputGroup2 #showPasswordToggle {
+  display: block;
+  padding: 0 0 0 1.45em;
+  position: absolute;
+  top: .25em;
+  right: 0;
+  font-size: 1em;
+}
+form .inputGroup2 #showPasswordToggle input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+form .inputGroup2 #showPasswordToggle .indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: .85em;
+  width: .85em;
+  background-color: #f3fafd;
+  border: solid 2px #217093;
+  border-radius: 3px;
+}
+form .inputGroup2 #showPasswordToggle .indicator:after {
+  content: "";
+  position: absolute;
+  left: .25em;
+  top: .025em;
+  width: .2em;
+  height: .5em;
+  border: solid #217093;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  visibility: hidden;
+}
+form .inputGroup2 #showPasswordToggle input:checked ~ .indicator:after {
+  visibility: visible;
+}
+form .inputGroup2 #showPasswordToggle input:focus ~ .indicator, form .inputGroup2 #showPasswordToggle input:hover ~ .indicator {
+  border-color: #4eb8dd;
+}
+form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator {
+  opacity: .5;
+}
+form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
+  visibility: hidden;
+}
+
+.backLeft {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #5AA5F9;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -999;
+}
+
+#slideBox {
+  width: 50%;
+  max-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-left: 50%;
+  position: absolute;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.topLayer {
+  width: 200%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  left: -100%;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background: #2C3034;
+  left: 0;
+  position: absolute;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background: #111;
+  right: 0;
+  position: absolute;
+}
+
+.content {
+  width: 250px;
+  margin: 0 auto;
+  top: 30%;
+  position: absolute;
+  left: 50%;
+  margin-left: -125px;
+}
+
+.loginbutton {
+  background: #03A9F4;
+  padding: 10px 16px;
+  width: auto;
+  font-weight: 600;
+  text-transform:  uppercase;
+  font-size: 14px;
+  color: #fff;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  border: 0;
+  outline: 0;
+  margin: 15px 15px 15px 0;
+  transition: all 0.25s;
+}
+
+.loginbutton:hover {
+  background: #0288D1;
+  box-shadow: 0 4px 7px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+.off {
+  background: none;
+  color: #03A9F4;
+  box-shadow: none;
+}
+
+.right .off:hover {
+  background: #eee;
+  color: #03A9F4;
+  box-shadow: none;
+}
+.left .off:hover {
+  box-shadow: none;
+  color: #03A9F4;
+  background: #363A3D;
+}
+input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #45494C;
+  font-size: 14px;
+  color: #959595;
+  padding: 8px 0;
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  background-color: white;
+  overflow: hidden;
+}
+
+.error404page {
+  width: 400px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.body404,
+.head404,
+.eyes404,
+.leftarm404,
+.rightarm404,
+.chair404,
+.leftshoe404,
+.rightshoe404,
+.legs404,
+.laptop404 {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/404-character-new.png) 0 0 no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.newcharacter404,
+.torso404,
+.body404,
+.head404,
+.eyes404,
+.leftarm404,
+.rightarm404,
+.chair404,
+.leftshoe404,
+.rightshoe404,
+.legs404,
+.laptop404 {
+  background-size: 750px;
+  position: absolute;
+  display: block;
+}
+
+.newcharacter404 {
+  width: 400px;
+  height: 800px;
+  left: 50%;
+  top: 20px;
+  margin-left: -200px;
+}
+
+.torso404 {
+  position: absolute;
+  display: block;
+  top: 138px;
+  left: 0px;
+  width: 389px;
+  height: 252px;
+  animation: sway 20s ease infinite;
+  transform-origin: 50% 100%;
+}
+
+.body404 {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 389px;
+  height: 253px;
+}
+
+.head404 {
+  position: absolute;
+  top: -148px;
+  left: 106px;
+  width: 160px;
+  height: 194px;
+  background-position: 0px -265px;
+  transform-origin: 50% 85%;
+  animation: headTilt 20s ease infinite;
+}
+
+.eyes404 {
+  position: absolute;
+  top: 92px;
+  left: 34px;
+  width: 73px;
+  height: 18px;
+  background-position: -162px -350px;
+  animation: blink404 10s steps(1) infinite, pan 10s ease-in-out infinite;
+}
+
+.leftarm404 {
+  position: absolute;
+  top: 159px;
+  left: 0;
+  width: 165px;
+  height: 73px;
+  background-position: -265px -341px;
+  transform-origin: 9% 35%;
+  transform: rotateZ(0deg);
+  animation: typeLeft 0.4s linear infinite;
+}
+
+.rightarm404 {
+  position: absolute;
+  top: 148px;
+  left: 231px;
+  width: 157px;
+  height: 91px;
+  background-position: -442px -323px;
+  transform-origin: 90% 25%;
+  animation: typeLeft 0.4s linear infinite;
+}
+
+.chair404 {
+  position: absolute;
+  top: 430px;
+  left: 55px;
+  width: 260px;
+  height: 365px;
+  background-position: -12px -697px;
+}
+
+.legs404 {
+  position: absolute;
+  top: 378px;
+  left: 4px;
+  width: 370px;
+  height: 247px;
+  background-position: -381px -443px;
+}
+
+.leftshoe404 {
+  position: absolute;
+  top: 591px;
+  left: 54px;
+  width: 130px;
+  height: 92px;
+  background-position: -315px -749px;
+}
+
+.rightshoe404 {
+  position: absolute;
+  top: 594px;
+  left: 187px;
+  width: 135px;
+  height: 81px;
+  background-position: -453px -749px;
+  transform-origin: 35% 12%;
+  animation: tapRight 1s linear infinite;
+}
+
+.laptop404 {
+  position: absolute;
+  top: 186px;
+  left: 9px;
+  width: 365px;
+  height: 216px;
+  background-position: -2px -466px;
+  transform-origin: 50% 100%;
+  animation: tapWobble 0.4s linear infinite;
+}
+
+.logo {
+  position: absolute;
+  top: 270px;
+  left: 160px;
+  width: 60px;
+  height: 60px;
+  background-position: -2px -466px;
+  transform-origin: 50% 100%;
+  animation: tapWobble 0.4s linear infinite;
+  }
+
+.error-text {
+    display: block;
+    color: #217093;
+    margin-top: 20px;
+    font-size: 1.55em;
+    font-weight: 400;
+    opacity: .65;
+}
+
+@keyframes sway {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  20% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(4deg);
+  }
+  45% {
+    transform: rotateZ(4deg);
+  }
+  50% {
+    transform: rotateZ(0deg);
+  }
+  70% {
+    transform: rotateZ(0deg);
+  }
+  75% {
+    transform: rotateZ(-4deg);
+  }
+  90% {
+    transform: rotateZ(-4deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes headTilt {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  20% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(-4deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  38% {
+    transform: rotateZ(2deg);
+  }
+  42% {
+    transform: rotateZ(2deg);
+  }
+  45% {
+    transform: rotateZ(-4deg);
+  }
+  50% {
+    transform: rotateZ(0deg);
+  }
+  70% {
+    transform: rotateZ(0deg);
+  }
+  82% {
+    transform: rotateZ(0deg);
+  }
+  85% {
+    transform: rotateZ(4deg);
+  }
+  90% {
+    transform: rotateZ(4deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes typeLeft {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(7deg);
+  }
+  75% {
+    transform: rotateZ(-6deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes typeRight {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(-6deg);
+  }
+  75% {
+    transform: rotateZ(7deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes tapWobble {
+  0% {
+    transform: rotateZ(-0.2deg);
+  }
+  50% {
+    transform: rotateZ(0.2deg);
+  }
+  100% {
+    transform: rotateZ(-0.2deg);
+  }
+}
+@keyframes tapRight {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  90% {
+    transform: rotateZ(-6deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes blink404 {
+  0% {
+    background-position: -162px -350px;
+  }
+  94% {
+    background-position: -162px -350px;
+  }
+  98% {
+    background-position: -162px -368px;
+  }
+  100% {
+    background-position: -162px -350px;
+  }
+}
+@keyframes pan {
+  0% {
+    transform: translateX(-2px);
+  }
+  49% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  99% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(-2px);
+  }
+}
