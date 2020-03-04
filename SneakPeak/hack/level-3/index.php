@@ -67,7 +67,7 @@ else {
 
 <body>
   <img id="logo" src="../../whhc.png"></div>
-  <img id="text" src="../../logov2.png"></div>
+  <img id="text" src="../../logov.png"></div>
  
     <div class="container">
   	<span class="txt anim-text-flow"><?echo 'Let\'s Tag Along';?></span>
