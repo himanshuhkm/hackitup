@@ -48,7 +48,7 @@ else {
   <title>Hack It Up Sneak Peak | Level 3</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
-  <meta></rCVhBr>
+  <meta>
     <script>
         window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}

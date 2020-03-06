@@ -59,9 +59,9 @@ else {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
     <div class="container">
-  	<span class="txt anim-text-flow">We have caught the token for you!</span>
+  	<span class="txt anim-text-flow">Feed me with 1-6 digit then see the magic</span>
   	<br />
-  	<span class="txt anim-text-flow">Go fetch ;) </span>
+  	<span class="txt anim-text-flow">Go fetch your idea to find me 😁</span>
 </div>
   
       <link rel="stylesheet" href="css/style.css?v=<?=time();?>">
@@ -161,7 +161,9 @@ width: 500px;
 br {
   color:#fff;
 }
-
+/* 
+* dGVjaG5vemFycmUud2hoYy5pbg==
+*/
 </style>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
