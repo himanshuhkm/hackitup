@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hackbox v2</title>
+		<title>Hack it up sneak peak</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -38,16 +38,16 @@
 	<body>
 		<div id="cont">
 			<h2 class="sub">Welcome to</h2>
-			<h1>Hackbox <span>v2</span></h1>
+			<h1>Hack it up <span>sneak peak</span></h1>
 			<div class="time">
-				You're amongst the <span style="color: #5AA5F9;">TOP 60</span> out of <span style="color: #5AA5F9;">253</span> hackers!
+				<!-----You're amongst the <span style="color: #5AA5F9;">TOP 60</span> out of <span style="color: #5AA5F9;">253</span> hackers!
 				<br>
 				<br>
 				Compete to secure a position in the <strong><a href="leaderboard" target="_blank"><span class="insta" style="color: #5AA5F9;">TOP 3</span></a></strong>
 				<br>
 				<br>
 				<b>So either get <span style="color: #5AA5F9;">rekt!</span> Get <span style="color: #5AA5F9;">played</span> or get<span style="color: #5AA5F9;"> pwned</span>!</b>
-				<br>
+				<br>---->
 				<br>
 				<br>
 				<br>
@@ -58,7 +58,7 @@
 		
 		<footer> 
 			<div class="place">
-			<span class="response">© <a target="_blank" href="https://whhc.in/">WHHC</a> 2018-19 </span><span class="response">| Presented By <a target="_blank" href="https://technozarre.whhc.in/">Technozarre</a></span><span class="response"> | Co-presented By <a target="_blank" href="https://www.instagram.com/the_startupguy/">Rinkesh Gorasia</a></span><span class="response"> | Developed By <a target="_blank" href="https://www.instagram.com/cheesetouched/">Rishabh Singh</span></a> & <a target="_blank" href="https://www.instagram.com/think_hatke/">Gaurav Rai</span></a>
+			<span class="response">© <a target="_blank" href="https://whhc.in/">WHHC</a> 2020-21 </span><span class="response">| Presented By <a target="_blank" href="https://technozarre.whhc.in/">Technozarre</a></span><span class="response"> | Co-presented By <a target="_blank" href="https://www.instagram.com/the_startupguy/">Rinkesh Gorasia</a></span><span class="response"> | Developed By <a target="_blank" href="https://www.instagram.com/cheesetouched/">Rishabh Singh</span></a> & <a target="_blank" href="https://www.instagram.com/think_hatke/">Gaurav Rai</span></a>
 		</div>
 		</footer>
 	</body>

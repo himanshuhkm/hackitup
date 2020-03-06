@@ -169,7 +169,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 										</label>
 									</div>
 									<div class="inputGroup inputGroup3">
-										<center><div class="loginbutton">Login</button></center>
+										<center><div class="loginbutton">Login</center>
 									</div>
 									<center><p class="error-text"></p></center>
 								</form>

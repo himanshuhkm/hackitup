@@ -38,7 +38,7 @@
   </div>
   <nav id="nav">
     <ul class="hidden">
-      <a href ="../"><li>Home</li></a>
+      <a href ="../../home"><li>Home</li></a>
       <a href ="../timeline"><li>Timeline</li></a>
       <a href ="../faq"><li>FAQ</li></a>
     </ul>

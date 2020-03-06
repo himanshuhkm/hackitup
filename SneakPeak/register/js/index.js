@@ -35,7 +35,7 @@ var questions = [
       document.getElementById("loading-spinner").style.visibility = "visible";
       $.ajax({
           type: "POST",
-          url: "https://hackitup.herokuapp.com/register",
+          url: "https://hackitup.herokuapp.com/sneakpeak",
           data: {
               name: questions[0].answer, 
               email: questions[1].answer, 

@@ -92,7 +92,7 @@ curl_close($curl);
   				echo "ACCESS DENIED!";
   			}	
   		} else if (json_decode($response, true)["level"] === 3) {
-  			if ($usertoken === "rCVhBr") {
+  			if ($usertoken === "tffQyV91") {
   				$curl = curl_init();
 				curl_setopt_array($curl, array(
   					CURLOPT_URL => "http://hackitup.herokuapp.com/advance/",
