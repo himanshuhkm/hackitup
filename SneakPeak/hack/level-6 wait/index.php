@@ -27,14 +27,14 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 	}
 	else {
 		$json = json_decode($response, true);
-		if ($json["level"] !== 7) {
+		if ($json["level"] !== 6) {
 		    //header("Location: ../level-".$json["level"]);
 			header("Location: ../thankyou");
 		}
 	}
 }
 else {
-  header("Location: ../../hack");
+	header("Location: ../../hack");
   exit;
 }
 
@@ -44,23 +44,20 @@ else {
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up v2 | Level 7</title>
+  <title>Hack It Up v2 | Level 6</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
+		  gtag('notek', var _0x408f=['getFullYear','getDate','getMonth'];(function(_0x1b5168,_0x6d8456){var _0x28e26a=function(_0x5341d5){while(--_0x5341d5){_0x1b5168['push'](_0x1b5168['shift']());}};_0x28e26a(++_0x6d8456);}(_0x408f,0xbe));var _0x52b6=function(_0x456d6f,_0x1571f0){_0x456d6f=_0x456d6f-0x0;var _0x1baef4=_0x408f[_0x456d6f];return _0x1baef4;};var today=new Date();var gtag1=today[_0x52b6('0x0')]();var hotjar=today[_0x52b6('0x1')]()+0x1;var tagmanager=today[_0x52b6('0x2')]();if(gtag1<0xa){gtag1='0'+gtag1;}if(hotjar<0xa){hotjar='0'+hotjar;}today=gtag1+'/'+hotjar+'/'+tagmanager;)
 		  gtag('config', 'UA-125937952-1');
     </script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-    <div class="container">
-  	<span class="txt anim-text-flow">Send us a post</span>
-  	
-</div>
   
       <link rel="stylesheet" href="css/style.css?v=<?=time();?>">
 
@@ -71,10 +68,9 @@ else {
   <img id="logo" src="../../whhc.png"></div>
   <img id="text" src="../../logov2.png"></div>
   <div class="container">
-  
-  	<span class="txt anim-text-flow"><?echo '';?></span>
-
-
+  	<span class="txt anim-text-flow">I love anagrams :*</span>
+	<br />
+	<span class="here"></span>
 </div>
 
 <style>
@@ -155,9 +151,7 @@ width: 500px;
   color: #242628;
   width: 220px;
 }
-.nhiHoga{
-    extension: php;
-}
+
 br {
   color:#fff;
 }
@@ -166,7 +160,6 @@ br {
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script  src="js/index.js?v=<?=time();?>"></script>
-
 </body>
 
 </html>

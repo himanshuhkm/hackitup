@@ -661,10 +661,13 @@
           animation-delay: 0s;
 }
 
-params {
-    username:"inject";
-    password:"inject";
-    note: "+1";
+.TokensAndCharms {
+  firstChar: Amitabh Bachchan;
+  secndChar: Numeric;
+  thirdChar: d;
+  fourthChar: Big B of thirdChar;
+  fifthChar: Numeric;
+  sixthChar: a;
 }
 
 body {
@@ -711,6 +714,10 @@ body {
   background-color: #1a1a1a;
   color: #1a1a1a;
   display: none;
+}
+
+.tryThis {
+visibility:hidden;
 }
 
 .txt {
