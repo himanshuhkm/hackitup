@@ -1,6 +1,6 @@
 <?php
    include("config.php");
-   $cookie = $_COOKIE["level-7"];
+   $cookie = $_COOKIE["level-6"];
    $myusername = $_POST['username'];
    $mypassword = $_POST['password']; 
    if($_SERVER["REQUEST_METHOD"] == "POST") {
