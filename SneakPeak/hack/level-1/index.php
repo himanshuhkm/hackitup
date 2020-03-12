@@ -67,7 +67,7 @@ else {
   <img id="logo" src="../../whhc.png"></div>
   <img id="text" src="../../logov2.png"></div>
   <div class="container">
-  <span class="txt anim-text-flow">Choli ke pichee kya haii...</span>
+  <span class="txt anim-text-flow">lets take selfieesssssss............</span>
   </div>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

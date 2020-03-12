@@ -58,7 +58,7 @@ else {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
     <div class="container">
-  	<span class="txt anim-text-flow">Send us a post</span>
+  	<span class="txt anim-text-flow">lets play some game of sending latter</span>
   	
 </div>
   
