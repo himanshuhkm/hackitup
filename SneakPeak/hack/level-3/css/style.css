@@ -665,7 +665,6 @@ body {
   background-color: #1a1a1a;
   color: #fefefe;
   font-family: 'Ubuntu';
-  text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 1.3em;
   line-height: 2;
@@ -712,10 +711,6 @@ body {
   display: block;
 }
 
-.tryThis {
-visibility:hidden;
-}
-
 a {
   text-decoration: none;
   position: absolute;
@@ -726,4 +721,3 @@ a {
   font-size: 15px;
   line-height: 15px;
 }
-

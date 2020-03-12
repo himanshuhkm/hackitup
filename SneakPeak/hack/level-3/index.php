@@ -1,4 +1,5 @@
 <?php
+setcookie("JSESSIONID", "beachLasagna.lol");
 session_start();
 if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
    $name = $_SESSION['name'];
@@ -28,7 +29,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 	else {
 		$json = json_decode($response, true);
 		if ($json["level"] !== 3) {
-            //header("Location: ../level-".$json["level"]);
+		    //header("Location: ../level-".$json["level"]);
 			header("Location: ../thankyou");
 		}
 	}
@@ -39,16 +40,14 @@ else {
 }
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up Sneak Peak | Level 3</title>
+  <title>Hack It Up v2 | Level 3</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
-  <meta>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
@@ -59,6 +58,11 @@ else {
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
+    <div class="container">
+  	<span class="txt anim-text-flow">Feed me with 1-6 digit then see the magic</span>
+  	<br />
+  	<span class="txt anim-text-flow">Go fetch your idea to find me 😁</span>
+</div>
   
       <link rel="stylesheet" href="css/style.css?v=<?=time();?>">
 
@@ -67,16 +71,103 @@ else {
 
 <body>
   <img id="logo" src="../../whhc.png"></div>
-  <img id="text" src="../../logov.png"></div>
- 
-    <div class="container">
-  	<span class="txt anim-text-flow"><?echo 'Let\'s Tag Along';?></span>
+  <img id="text" src="../../logov2.png"></div>
+  <div class="container">
+  
+  	<span class="txt anim-text-flow"><?echo '';?></span>
+
+
 </div>
 
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <script  src="js/index.js?v=<?=time();?>"></script>
-	<imge id="backbg" src="asset/img/logo.png">
+.search {
+  width: 100px;
+  height: 100px;
+  margin: 40px auto 0;
+  background-color: #242628;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.search:before {
+  content: '';
+  display: block;
+  width: 3px;
+  height: 100%;
+  position: relative;
+  background-color: #00FEDE;
+  transition: all 0.5s ease;
+}
+.search.open {
+width: 500px;
+}
+.search.open:before {
+  height: 60px;
+  margin: 20px 0 20px 30px;
+  position: absolute;
+}
+
+.form-control {
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  color: #fff;
+  padding: 20px 100px 20px 45px;
+  font-size: 40px;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.search-button {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #242628;
+  width: 180px;
+  font-size: 1em;
+  transition: width 0.6s;
+  -webkit-transition: width 0.6s;
+  border: none;
+  margin-top: 50px;
+  height: 60px;
+  border-radius: 3px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  color: #888;
+}
+
+.btn:hover {
+  background: #888;
+  cursor: pointer;
+  color: #242628;
+  width: 220px;
+}
+
+br {
+  color:#fff;
+}
+/* 
+* dGVjaG5vemFycmUud2hoYy5pbg==
+*/
+</style>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="js/index.js?v=<?=time();?>"></script>
 </body>
 
 </html>

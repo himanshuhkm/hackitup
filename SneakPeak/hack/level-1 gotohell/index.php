@@ -28,7 +28,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 	} else {
 		$json = json_decode($response, true);
 		if ($json["level"] !== 1) {
-	        //header("Location: ../level-".$json["level"]);
+			//header("Location: ../level-".$json["level"]);
 			header("Location: ../thankyou");
 		}
 	}
@@ -67,14 +67,14 @@ else {
   <img id="logo" src="../../whhc.png"></div>
   <img id="text" src="../../logov2.png"></div>
   <div class="container">
-  <span class="txt anim-text-flow">Yeah Yeah! I know. Too easy right?</span>
+  <span class="txt anim-text-flow">Ayyyyy. We are back with the second iteration of Hack It Up!</span>
   <br/ >
-  <span class="txt anim-text-flow">Well. It won't be as easy this time.</span>
+  <span class="txt anim-text-flow">So? What's the most basic requirement to become a hacker?</span>
   <br/ >
-  <span class="txt anim-text-flow">Up for the challenge?</span>
+  <span class="txt anim-text-flow">That's right. Be Observant!</span>
   </div>
 
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?answer=ZCCyV1'></script>
 
     <script  src="js/index.js"></script>
 

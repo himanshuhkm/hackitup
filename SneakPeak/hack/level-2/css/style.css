@@ -5,8 +5,8 @@
 .anim-text-flow,
 .anim-text-flow-hover:hover {
   /*
-   * I am right here
-   *
+   * Animation variables
+   */
   /*
    * Elements settings
    */
@@ -660,11 +660,7 @@
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
-/*
-*
-*n9@p9@k
-*
-*/
+
 body {
   background-color: #1a1a1a;
   color: #fefefe;
@@ -709,10 +705,15 @@ body {
 .sode {
   background-color: #1a1a1a;
   color: #1a1a1a;
+  display: none;
 }
 
 .txt {
   display: block;
+}
+
+.tryThis {
+visibility:hidden;
 }
 
 a {
@@ -725,3 +726,4 @@ a {
   font-size: 15px;
   line-height: 15px;
 }
+

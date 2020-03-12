@@ -5,9 +5,8 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
    $phonenumber = $_SESSION['phonenumber'];
    $college = $_SESSION['college'];
    $curl = curl_init();
-
-	curl_setopt_array($curl, array(
-  	CURLOPT_URL => "https://hackitup.herokuapp.com/currentlevel/".$phonenumber,
+   curl_setopt_array($curl, array(
+   	CURLOPT_URL => "https://hackitup.herokuapp.com/currentlevel/".$phonenumber,
   	CURLOPT_RETURNTRANSFER => true,
   	CURLOPT_ENCODING => "",
   	CURLOPT_MAXREDIRS => 10,
@@ -17,36 +16,39 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
   	CURLOPT_HTTPHEADER => array(
     	"Content-Type: application/x-www-form-urlencoded"
   	),
-));
+  ));
 
 	$response = curl_exec($curl);
 	$err = curl_error($curl);
 	curl_close($curl);
-	
+
 	if ($err) {
   		echo "cURL Error #:" . $err;
-	} else {
+	}
+	else {
 		$json = json_decode($response, true);
 		if ($json["level"] !== 2) {
-	        //header("Location: ../level-".$json["level"]);
+            //header("Location: ../level-".$json["level"]);
 			header("Location: ../thankyou");
 		}
 	}
 }
 else {
 	header("Location: ../../hack");
-  	exit;
+  exit;
 }
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up v2 | Level 2</title>
+  <title>Hack It Up Sneak Peak | Level 2</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
+  <meta>
     <script>
         window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
@@ -65,19 +67,16 @@ else {
 
 <body>
   <img id="logo" src="../../whhc.png"></div>
-  <img id="text" src="../../logov2.png"></div>
-  <div class="container">
-  <span class="txt anim-text-flow">Yeah Yeah! I know. Too easy right?</span>
-  <br/ >
-  <span class="txt anim-text-flow">Well. It won't be as easy this time.</span>
-  <br/ >
-  <span class="txt anim-text-flow">Up for the challenge?</span>
-  </div>
+  <img id="text" src="../../logov.png"></div>
+ 
+    <div class="container">
+  	<span class="txt anim-text-flow"><?echo 'Let\'s Tag Along';?></span>
+</div>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <script  src="js/index.js"></script>
-
+    <script  src="js/index.js?v=<?=time();?>"></script>
+	<imge id="backbg" src="asset/img/logo.png">
 </body>
 
 </html>
