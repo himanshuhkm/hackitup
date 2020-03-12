@@ -188,7 +188,7 @@ curl_close($curl);
   				echo "ACCESS DENIED!";
   			}	
   		}  else if (json_decode($response, true)["level"] === 6) {
-  			if ($usertoken === "28/01/2019") {
+  			if ($usertoken === "T0okL9pI") {
   				$curl = curl_init();
 				curl_setopt_array($curl, array(
   					CURLOPT_URL => "http://hackitup.herokuapp.com/advance/",
@@ -219,7 +219,7 @@ curl_close($curl);
   			else {
   				echo "ACCESS DENIED!";
   			}	
-  		}  else if (json_decode($response, true)["level"] === 6) {
+  		}  /* else if (json_decode($response, true)["level"] === 6) {
   			if ($usertoken === "AP0C6R") {
   				$curl = curl_init();
 				curl_setopt_array($curl, array(
@@ -251,7 +251,7 @@ curl_close($curl);
   			else {
   				echo "ACCESS DENIED!";
   			}	
-  		} else if (json_decode($response, true)["level"] === 7) {
+  		} */ else if (json_decode($response, true)["level"] === 7) {
   			if ($usertoken === "VItMpz") {
   				$curl = curl_init();
 				curl_setopt_array($curl, array(
