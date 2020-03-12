@@ -51,8 +51,8 @@
 				<br>
 				<br>
 				<br>
-				<a href="../sneakpeak/register"><button class="btn draw-border">REGISTER</button></a>
-				<a href="../sneakpeak"><button class="btn draw-border">HACK</button></a>
+				<a href="../SneakPeek/register"><button class="btn draw-border">REGISTER</button></a>
+				<a href="../SneakPeek"><button class="btn draw-border">HACK</button></a>
 			</div>
 		</div>
 		
