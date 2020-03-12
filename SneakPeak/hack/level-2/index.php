@@ -45,7 +45,7 @@ else {
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up Sneak Peak | Level 2</title>
+  <title>Hack It Up Sneak Peek | Level 2</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
   <meta>
@@ -70,7 +70,9 @@ else {
   <img id="text" src="../../logov.png"></div>
  
     <div class="container">
-  	<span class="txt anim-text-flow"><?echo 'Let\'s Tag Along';?></span>
+  	<span class="txt anim-text-flow">Lets play hide and seek</span>
+	  <br>
+	  <span class="txt anim-text-flow">Find me if you can</span>
 </div>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

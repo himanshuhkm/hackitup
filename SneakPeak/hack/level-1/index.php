@@ -44,7 +44,7 @@ else {
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up v2 | Level 1</title>
+  <title>Hack It Up Sneak Peek | Level 1</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
     <script>
@@ -67,11 +67,7 @@ else {
   <img id="logo" src="../../whhc.png"></div>
   <img id="text" src="../../logov2.png"></div>
   <div class="container">
-  <span class="txt anim-text-flow">Yeah Yeah! I know. Too easy right?</span>
-  <br/ >
-  <span class="txt anim-text-flow">Well. It won't be as easy this time.</span>
-  <br/ >
-  <span class="txt anim-text-flow">Up for the challenge?</span>
+  <span class="txt anim-text-flow">Choli ke pichee kya haii...</span>
   </div>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

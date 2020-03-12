@@ -44,7 +44,7 @@ else {
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up v2 | Level 6</title>
+  <title>Hack It Up Sneak Peek| Level 6</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
     <script>
@@ -133,6 +133,10 @@ width: 500px;
   top: 0;
   padding: 20px;
   cursor: pointer;
+  /*
+  *dontletextensiongo
+  *php
+  */
 }
 
 .btn {
@@ -154,9 +158,6 @@ width: 500px;
   cursor: pointer;
   color: #242628;
   width: 220px;
-}
-.nhiHoga{
-    extension: php;
 }
 br {
   color:#fff;
