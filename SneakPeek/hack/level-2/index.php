@@ -70,13 +70,13 @@ else {
   <img id="text" src="../../logov.png"></div>
  
     <div class="container">
-	<span class="txt anim-text-flow">lets take selfieesssssss............</span>
+	<span class="txt anim-text-flow">I AM RIGHT HERE...</span>
 </div>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     <script  src="js/index.js?v=<?=time();?>"></script>
-	<imge id="backbg" src="asset/img/logo.png">
+	<imge id="backbg" src="asset/img/backbg.png">
 </body>
 
 </html>

@@ -57,12 +57,6 @@ else {
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-    <div class="container">
-  	<span class="txt anim-text-flow">Feed me with 1-8 digit then see the magic</span>
-  	<br />
-  	<span class="txt anim-text-flow">Go fetch your idea to find me 😁</span>
-</div>
   
       <link rel="stylesheet" href="css/style.css?v=<?=time();?>">
 
@@ -73,10 +67,8 @@ else {
   <img id="logo" src="../../whhc.png"></div>
   <img id="text" src="../../logov.png"></div>
   <div class="container">
-  
-  	<span class="txt anim-text-flow"><?echo '';?></span>
-
-
+  <span class="txt anim-text-flow">The pilot said to ATC ✈</span>
+  <span class="txt anim-text-flow">"BRAVO ALPHA SIERRA ECHO requesting Taxi"</span>
 </div>
 
 <style>
@@ -162,7 +154,7 @@ br {
   color:#fff;
 }
 /* 
-* dGVjaG5vemFycmUud2hoYy5pbg==
+* ZmluZG1laW4tdGVjaG5vemFycmUud2hoYy5pbg==
 */
 </style>
 

@@ -28,7 +28,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 	}
 	else {
 		$json = json_decode($response, true);
-		if ($json["level"] !== 16) {
+		if ($json["level"] !== 4) {
 			header("Location: ../".$json["level"]);
 		}
 	}
@@ -44,7 +44,7 @@ header("Location: ../../login/");
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack-It-Up! | Level 5</title>
+  <title>Hack It Up Sneak Peek| Level 4</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
 <script>
@@ -57,7 +57,8 @@ header("Location: ../../login/");
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.6.5/tailwind.min.css'>
+    <link rel="stylesheet" href="css/style.css?hover=<?php echo rand(111,999)?>">
   
       <link rel="stylesheet" href="css/style.css?v=<?=time();?>">
 
@@ -65,12 +66,12 @@ header("Location: ../../login/");
 </head>
 
 <body>
-  <img id="logo" src="../../login/whhc.png"></div>
-  <img id="text" src="../../login/logo.png"></div>
+  <img id="logo" src="../../whhc.png"></div>
+  <img id="text" src="../../logov.png"></div>
   <div class="container">
   
-  	<span class="txt anim-text-flow"><?echo 'MUKESH WROTE AN ENCRYTION PROGRAM TO ENCRYPT THE TOKEN USING THE FORM BELOW';?></span>
-  	<span class="txt anim-text-flow"><?echo 'HERE IS THE ENCRYPTED TOKEN: mvfghc';?></span>
+    <span class="txt anim-text-flow">I JUST ENCRYPTED THE TOKEN USING THE FORM BELOW</span>
+  	<span class="txt anim-text-flow">HERE IS THE ENCRYPTED TOKEN: ip9to3lu </span>
   	<div class="search">
 		<input id="term" placeholder="Enter password" type="text" class="form-control" />
 		<span class="search-button">

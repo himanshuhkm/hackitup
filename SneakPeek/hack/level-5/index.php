@@ -34,8 +34,8 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 	}
 }
 else {
-// 	header("Location: ../../hack");
-//   exit;
+	header("Location: ../../hack");
+  exit;
 }
 
 ?>
@@ -70,15 +70,15 @@ else {
     
    
   <div class="container">
-  	<span class="txt anim-text-flow">Feed me</span>
+  	<span class="txt anim-text-flow">Login</span>
 	<br />
 	<span class="here"></span>
   <center>
   <div class="font-sans">
       <div class="w-xs bg-white p-6 shadow-md rounded max-w-sm">
-            <form method="post" action="checklogin.php">
+            <form action="checkLogin.php" method="post">
                 <div class="mb-4">
-                    <div><label class="block text-grey-darker text-sm font-bold mb-2 required" >Login</label><input type="text" placeholder=" Did you think you need to login" autofocus="autofocus" class="border-2 rounded w-full p-2 text-grey-darker leading-tight focus:border-grey-dark" /></div>
+                    <div><label class="block text-grey-darker text-sm font-bold mb-2 required">Did you think you can login?</label><input type="text" name="term"  autofocus="autofocus" class="border-2 rounded w-full p-2 text-grey-darker leading-tight focus:border-grey-dark" /></div>
                 </div>
                 <button class="bg-green-dark p-3 text-white font-bold rounded w-full hover:bg-green focus:outline-none focus:shadow-outline active:bg-green-dark">Submit</button>
             </form>
@@ -149,16 +149,6 @@ width: 500px;
   outline: none;
 }
 
-.search-button {
-  width: 100px;
-  height: 100px;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 20px;
-  cursor: pointer;
-}
 
 .btn {
   background-color: #242628;
@@ -189,6 +179,7 @@ br {
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script  src="js/index.js?v=<?=time();?>"></script>
+
 
 </body>
 

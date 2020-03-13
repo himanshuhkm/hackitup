@@ -19,13 +19,12 @@
           */
        }
        else {
-           echo "Invalid Session";
+           echo "Invalid Session ";
+           echo "Sponsored by cryptii.com";
             header('Session: Ofcourse I need a cookie man. You think i\'m gonna let you get pass without it?');
-            header('Cookie: level-current = (aGF2ZXlvdW1pc3NtZWFsb3Rjb29raWVz)');
-            header('Key: SrmWhhc@2020');
-            header('Mode: CTR');
-            header('Base: 64');
-            header('Have you miss me');
+            header('Cookie: level-current=(fuvyeqimroceqamibvqitovs)');
+            header('Key: TiredNow');
+            header('Cipher: Bifid');
 
        }
    }
