@@ -71,7 +71,7 @@ else {
   <span class="txt anim-text-flow">He doesn't know DBMS and hence decided to query the data using a .txt file</span>
   <br/>
   <span class="txt anim-text-flow">Being a smart intern, he hid that text file from appearing into any search engine results</span>
-  <br/ >
+  <br>
   <center>
   <div class="font-sans">
       <div class="w-xs bg-white p-6 shadow-md rounded max-w-sm">

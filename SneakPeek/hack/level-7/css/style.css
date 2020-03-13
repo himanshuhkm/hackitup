@@ -661,11 +661,6 @@
           animation-delay: 0s;
 }
 
-params {
-    username:"inject";
-    password:"inject";
-    note: "+1";
-}
 
 body {
   background-color: #1a1a1a;
