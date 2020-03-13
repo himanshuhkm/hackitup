@@ -70,9 +70,7 @@ else {
   <img id="text" src="../../logov.png"></div>
  
     <div class="container">
-  	<span class="txt anim-text-flow">Lets play hide and seek</span>
-	  <br>
-	  <span class="txt anim-text-flow">Find me if you can</span>
+	<span class="txt anim-text-flow">lets take selfieesssssss............</span>
 </div>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
