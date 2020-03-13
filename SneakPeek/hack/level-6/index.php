@@ -56,11 +56,6 @@ else {
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-    <div class="container">
-  	<span class="txt anim-text-flow">post me Somthing</span>
-  	
-</div>
   
       <link rel="stylesheet" href="css/style.css?v=<?=time();?>">
 
@@ -72,7 +67,7 @@ else {
   <img id="text" src="../../logov2.png"></div>
   <div class="container">
   
-  	<span class="txt anim-text-flow"><?echo '';?></span>
+  <span class="txt anim-text-flow">POST ME SOMETHING</span>
 
 
 </div>
