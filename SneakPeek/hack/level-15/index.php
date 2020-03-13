@@ -28,10 +28,11 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 	}
 	else {
 		$json = json_decode($response, true);
-		if ($json["level"] !== 9) {
+		if ($json["level"] !== 15) {
 			header("Location: ../level-".$json["level"]);
 		} else {
-			$to = $_POST['email'];
+      //$to = $_POST['email'];
+      $to = "skiran13@gmail.com";
 			$subject = "HACK.IT.UP";
 			$message = "
 			<html>
