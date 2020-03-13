@@ -56,7 +56,8 @@ else {
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.6.5/tailwind.min.css'>
+    <link rel="stylesheet" href="css/style.css?hover=<?php echo rand(111,999)?>">
   
       <link rel="stylesheet" href="css/style.css?v=<?=time();?>">
 
@@ -69,23 +70,29 @@ else {
     
    
   <div class="container">
-      <div class="tryThis">https://passwordsgenerator.net/md5-hash-generator </div>
-  	<span class="txt anim-text-flow"><?echo 'F86CB168C450304786D953874AC07751';?></span>
+  	<span class="txt anim-text-flow">Feed me</span>
 	<br />
 	<span class="here"></span>
-  <script >
-      function verify() {
-        checkpass = document.getElementById("pass").value;
-        split = 4;
-        if (checkpass.substring(0, split) == 'pico') {
-          if (checkpass.substring(split*6, split*7) == 'b956') {
-            if (checkpass.substring(split, split*2) == 'CTF{') {
-             if (checkpass.substring(split*4, split*5) == 'ts_p') {
-              if (checkpass.substring(split*3, split*4) == 'lien') {
-                if (checkpass.substring(split*5, split*6) == 'lz_e') {
-                  if (checkpass.substring(split*2, split*3) == 'no_c') {
-                    if (checkpass.substring(split*7, split*8) == 'b}') {
-                      alert("Password Verified")
+  <center>
+  <div class="font-sans">
+      <div class="w-xs bg-white p-6 shadow-md rounded max-w-sm">
+            <form method="post" action="checklogin.php">
+                <div class="mb-4">
+                    <div><label class="block text-grey-darker text-sm font-bold mb-2 required" >Login</label><input type="text" placeholder=" Did you think you need to login" autofocus="autofocus" class="border-2 rounded w-full p-2 text-grey-darker leading-tight focus:border-grey-dark" /></div>
+                </div>
+                <button class="bg-green-dark p-3 text-white font-bold rounded w-full hover:bg-green focus:outline-none focus:shadow-outline active:bg-green-dark">Submit</button>
+            </form>
+        </div>
+</div>
+</center>
+        <!-- if(checkpass.substring(0, split) == 'H') {
+          if (checkpass.substring(split*6, split*7) == 'e') {
+            if (checkpass.substring(split, split*2) == 'a') {
+             if (checkpass.substring(split*4, split*5) == 'V') {
+              if (checkpass.substring(split*3, split*4) == '1') {
+                if (checkpass.substring(split*5, split*6) == 'I') {
+                  if (checkpass.substring(split*2, split*3) == '2') {
+                    if (checkpass.substring(split*7, split*8) == 'q') {
                       }
                     }
                   }
@@ -94,23 +101,7 @@ else {
               }
             }
           }
-        }
-        else {
-          alert("Incorrect password");
-        }
-        
-      }
-    </script>
-    
-    <form action="index.html" method="post">
-    <input type="password" id="pass" size="8" />
-    <br/>
-    <input type="submit" value="verify" onclick="verify(); return false;" />
-    </form>
-    </div>
-    </div>
-</div>
-
+        } -->
 <style>
 * {
   box-sizing: border-box;
