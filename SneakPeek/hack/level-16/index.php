@@ -28,7 +28,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 	}
 	else {
 		$json = json_decode($response, true);
-		if ($json["level"] !== 8) {
+		if ($json["level"] !== 16) {
 			header("Location: ../".$json["level"]);
 		}
 	}
