@@ -45,7 +45,7 @@ else {
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up v2 | Level 8</title>
+  <title>Hack It Up Sneak Peek | Level 8</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
     <script>
@@ -73,7 +73,7 @@ else {
 
 <body>
   <img id="logo" src="../../whhc.png"></div>
-  <img id="text" src="../../logov2.png"></div>
+  <img id="text" src="../../logov.png"></div>
   <div class="container">
   
   	<span class="txt anim-text-flow"><?echo '';?></span>
