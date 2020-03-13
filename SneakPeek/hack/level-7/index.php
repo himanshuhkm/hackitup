@@ -74,9 +74,9 @@ else {
       <div class="w-xs bg-white p-6 shadow-md rounded max-w-sm">
             <form method="post" action="checklogin.php">
                 <div class="mb-4">
-                    <div><label class="block text-grey-darker text-sm font-bold mb-2 required" for="_username">Value</label><input type="text" id="_username" name="_username" required="required" placeholder="Value" autofocus="autofocus" class="border-2 rounded w-full p-2 text-grey-darker leading-tight focus:border-grey-dark" /></div>
+                    <div><label class="block text-grey-darker text-sm font-bold mb-2 required" for="_username">Encrypted Value</label><input type="text" id="_username" name="_username" required="required" placeholder="Encrypted Value" autofocus="autofocus" class="border-2 rounded w-full p-2 text-grey-darker leading-tight focus:border-grey-dark" /></div>
                 </div>
-                <button class="bg-green-dark p-3 text-white font-bold rounded w-full hover:bg-green focus:outline-none focus:shadow-outline active:bg-green-dark">submit</button>
+                <button class="bg-green-dark p-3 text-white font-bold rounded w-full hover:bg-green focus:outline-none focus:shadow-outline active:bg-green-dark">Submit</button>
             </form>
         </div>
 </div>
