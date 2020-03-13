@@ -1,13 +1,12 @@
 <?php
 
-$session = $_POST["JSESSIONID"];
+$session = $_COOKIE["JSESSIONID"];
 $username = $_POST["username"];
 $password = $_POST["password"];
-$username = str_replace(' ', '', $username);
-$password = str_replace(' ', '', $password);
+//$username = str_replace(' ', '', $username);
+//$password = str_replace(' ', '', $password);
 
 if($session==="798480bjkbkjbcdw090WSiba") {
-    
     if($username==="\"or\"\"=\"" && $password==="\"or\"\"=\"") {
         
         echo "VItMpz";

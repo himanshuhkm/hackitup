@@ -3,7 +3,7 @@ setcookie("JSESSIONID", "798480bjkbkjbcdw090WSiba");
 $ip = $_SERVER['REMOTE_ADDR'];
 $access_key = 'e4e8b9efdd988261006b8f6051ea80ef';
 
-$text = "Access Denied";
+$text = "You are Tamash and you can see me only from Washington DC.";
 
 // Initialize CURL:
 $ch = curl_init('http://api.ipstack.com/'.$ip.'?access_key='.$access_key.'');
@@ -25,7 +25,7 @@ $coun = $api_result['country_name'];
         $browser = 'safari';
     }
     
-    if ($agent==='Tamash' && $coun==='Canada') {
+    if ($agent==="Tamash" && $coun==='United States') {
     $text = "Go to getStuff.php";
 }
 
@@ -57,7 +57,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 	}
 	else {
 		$json = json_decode($response, true);
-		if ($json["level"] !== 8) {
+		if ($json["level"] !== 15) {
 			header("Location: ../level-".$json["level"]);
 		}
 	}
