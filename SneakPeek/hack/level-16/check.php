@@ -34,10 +34,13 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 			$ans = "";
 			$input = $_GET['input'];
 			$array = str_split($input);
+			$count = 0;
 			foreach ($array as $char) {
- 				++$char;
- 				++$char;
- 				$ans .= $char;
+				if($count%2===0){ 
+				++$char;}else{
+ 				$char= chr(ord($char) - 1);}
+				 $ans .= $char;
+				 ++$count;
 			}
 			echo $ans;
 		}
