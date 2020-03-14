@@ -180,33 +180,7 @@ br {
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script  src="js/index.js?v=<?=time();?>"></script>
-<script type="text/javascript">
 
-function submit(args) {
-	console.log(args);
-	var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'check.php?input='+args, false);
-	xhr.send(null);
-	if (xhr.status === 200) {
-		$(".here").html(xhr.responseText);
-	}
-}
-
-$('.search-button').click(function(){
- 	$(this).parent().toggleClass('open');
-});
-
-$(document).ready(function(){
-
-    $("body").on('click', '#search', function (){
-    	var term = $('#term').val().toLowerCase();
-    	$(document).ready(function(){
-    		submit(term);
-  	});
-    });
-
-});
-</script>
 
 </body>
 
