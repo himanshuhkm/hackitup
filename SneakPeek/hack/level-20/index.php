@@ -33,7 +33,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 			header("Location: ../".$json["level"]);
 		}
 		else{
-			setcookie("desibiscuit", "false");
+			setcookie("imcookie", "false");
 		}
 	}
 }
@@ -48,7 +48,7 @@ header("Location: ../../login/");
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack-It-Up! | Level 8</title>
+  <title>Hack It Up Sneak Peek | Level 20</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
 <script>
@@ -69,13 +69,13 @@ header("Location: ../../login/");
 </head>
 
 <body>
-  <img id="logo" src="../../login/whhc.png"></div>
-  <img id="text" src="../../login/logo.png"></div>
+  <img id="logo" src="../../whhc.png"></div>
+  <img id="text" src="../../logov.png"></div>
   <div class="container">
   
-  	<span class="txt anim-text-flow"><?echo 'KHUL JA SIM SIM';?></span>
-  	<span class="txt anim-text-flow"><?echo 'This particular level only works in Google Chrome';?></span>
-  	<span class="txt anim-text-flow"><?echo 'No, they are not our sponsors! :P';?></span>
+  	<span class="txt anim-text-flow"><?echo 'I M HUNGRY GIVE ME FOOD';?></span>
+  	<!-- <span class="txt anim-text-flow"><?echo 'This particular level only works in Google Chrome';?></span>
+  	<span class="txt anim-text-flow"><?echo 'No, they are not our sponsors! :P';?></span> -->
   	<form name="form" action="checklogin.php" method="post">
   		<div class="search">
 			<input id="ad" placeholder="Enter username" type="text" class="form-control" id="_username" name="_username" required="required" />
