@@ -1,5 +1,5 @@
 <?php
-setcookie("JSESSIONID", "beachLasagna.lol");
+setcookie("JSESSIONID", "taxigranted.64");
 session_start();
 if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
    $name = $_SESSION['name'];
@@ -153,9 +153,6 @@ width: 500px;
 br {
   color:#fff;
 }
-/* 
-* ZmluZG1laW4tdGVjaG5vemFycmUud2hoYy5pbg==
-*/
 </style>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

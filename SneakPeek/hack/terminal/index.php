@@ -17,7 +17,7 @@ else {
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up v2 | My Terminal</title>
+  <title>Hack It Up Sneak Peek | My Terminal</title>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125937952-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

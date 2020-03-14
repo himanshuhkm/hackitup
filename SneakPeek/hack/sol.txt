@@ -1,0 +1,6 @@
+1. Hidden in css file - n9Ap9Akq
+2. Source has a image backbg - tffQyV91
+3. Base 64 encoded string in taxigranted.64 file (found in cookies), redirects 
+to technozarre.whhhc.in where encoded token in meta tag - Ga2V6eAr
+4. Crack the algorithm - hq8un4kv
+5. 
