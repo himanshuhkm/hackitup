@@ -29,7 +29,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
 	}
 	else {
 		$json = json_decode($response, true);
-		if ($json["level"] !== 9) {
+		if ($json["level"] !== 20) {
 			header("Location: ../".$json["level"]);
 		}
 		else{
@@ -76,13 +76,13 @@ header("Location: ../../login/");
   	<span class="txt anim-text-flow"><?echo 'KHUL JA SIM SIM';?></span>
   	<span class="txt anim-text-flow"><?echo 'This particular level only works in Google Chrome';?></span>
   	<span class="txt anim-text-flow"><?echo 'No, they are not our sponsors! :P';?></span>
-  	<form name="form" action="" method="post">
+  	<form name="form" action="checklogin.php" method="post">
   		<div class="search">
-			<input id="ad" placeholder="Enter username" type="text" class="form-control" />
+			<input id="ad" placeholder="Enter username" type="text" class="form-control" id="_username" name="_username" required="required" />
 			<span class="search-button">
 		</div>
   		<div class="search">
-			<input id="pa" placeholder="Enter password" type="password" class="form-control" />
+			<input id="pa" placeholder="Enter password" type="password" class="form-control" id="_password" name="_password" required="required"/>
 			<span class="search-button">
 		</div>
 		<span class="input-group-btn">
@@ -90,7 +90,7 @@ header("Location: ../../login/");
 		</span>
 		<br />
 	</form>
-	<span class="here"><?php if ($_COOKIE['desibiscuit'] == "true") {echo "mddddd(42d08fd889e511098137bbea2e450c0e)";} ?></span>
+	<span class="here"><?php if ($_COOKIE['desibiscuit'] == "true") {echo "mddddd(42d08fd889e511098137bbea2e450c0e) pas(qwertyuiop)";} ?></span>
 </div>
 
 <style>
