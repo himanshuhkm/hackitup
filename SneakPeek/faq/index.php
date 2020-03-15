@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up v2 | FAQ</title>
+  <title>Hack It Up Sneak Peek | FAQ</title>
   <link rel="icon" href="../landing/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">

@@ -5,7 +5,7 @@ if(isset($_SESSION['loggedin']) && !empty($_SESSION['loggedin'])) {
    $phonenumber = $_SESSION['phonenumber'];
    $college = $_SESSION['college'];
    $usertoken = $_GET['usertoken'];
-   echo "Hack It Up v2 has concluded. You cannot submit tokens anymore. Thank you for being a part!";
+   echo "Hack It Up Sneak Peek has concluded. You cannot submit tokens anymore. Thank you for being a part!";
 }
 else {
 	header("Location: ../");

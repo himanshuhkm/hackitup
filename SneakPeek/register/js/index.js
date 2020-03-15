@@ -55,7 +55,7 @@ var questions = [
           error: function(xhr, textStatus, errorThrown) {
               document.getElementById("loading-spinner").style.visibility = "hidden";
               if (xhr.status == 409) {
-                  h1.appendChild(document.createTextNode('You have already registered for Hack It Up v2!'))
+                  h1.appendChild(document.createTextNode('You have already registered for Hack It Up Sneak Peek!'))
               }
               else if (xhr.status == 400) {
                   h1.appendChild(document.createTextNode('Incorrect details. Please check the form again!'))

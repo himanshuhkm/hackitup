@@ -33,7 +33,7 @@ if ($err) {
 
 	<head>
   		<meta charset="UTF-8">
-  		<title>Hack It Up v2 | Total Hackers</title>
+  		<title>Hack It Up Sneak Peek | Total Hackers</title>
   		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
   		<link rel="stylesheet" href="css/style.css?hover=<?php echo rand(111,999)?>">
   		<script>

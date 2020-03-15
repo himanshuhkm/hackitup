@@ -70,7 +70,7 @@ function clear() {
 }
 
 function help() {
-	terminal.append("Welcome to Hack It Up v2\n");
+	terminal.append("Welcome to Hack It Up Sneak Peek\n");
 	terminal.append("Given below are a few commands which you will be using during the course of this round. Use 'up' & 'down' arrow to navigate through the previously executed commands. Happy Hacking!\n\n");
 	terminal.append("hack - go to the current level\n");
 	terminal.append("hint - get the hint for the current level\n");

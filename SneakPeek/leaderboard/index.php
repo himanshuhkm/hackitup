@@ -43,7 +43,7 @@ $json = json_decode($response, true);
 		  gtag('config', 'UA-125937952-1');
     </script>
 
-  <title>Hack It Up v2 | Leaderboard</title>
+  <title>Hack It Up Sneak Peek | Leaderboard</title>
   <link href='https://fonts.googleapis.com/css?family=Muli:300,400' rel='stylesheet' type='text/css'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">

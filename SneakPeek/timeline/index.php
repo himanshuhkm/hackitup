@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Hack It Up v2 | Timeline</title>
+  <title>Hack It Up Sneak Peek | Timeline</title>
     <link rel="icon" href="../landing/favicon.ico">
   <link rel="stylesheet" href="css/style.css"> 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -17,7 +17,7 @@
 
 <body>
   <div id="content">
-    <h1>Hack It Up v2 | Timeline</h1>
+    <h1>Hack It Up Sneak Peek | Timeline</h1>
     <ul class="timeline">
       <li class="event" data-date="December 30th">
         <h3>Registrations Open</h3>
