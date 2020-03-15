@@ -41,11 +41,10 @@ h1 {
 }
 
 #text {
-  height: 30px;
-  width: 300px;
+  width: 200px;
   position: absolute;
   left: 130px;
-  top: 55px;
+  top: 35px;
   justify-content: center;
   align-items: center;
 }
