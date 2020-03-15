@@ -61,7 +61,7 @@ else {
 
   
       <link rel="stylesheet" href="css/style.css?v=<?=time();?>">
-
+	  <link rel="icon" href="../../landing/favicon.ico">
   
 </head>
 
