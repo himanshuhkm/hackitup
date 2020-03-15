@@ -42,12 +42,12 @@ var questions = [
           },
           success: function (response) {
               document.getElementById("loading-spinner").style.visibility = "hidden";
-              h1.appendChild(document.createTextNode('Welcome to Hackbox 2.0, ' + questions[0].answer + '!'))
+              h1.appendChild(document.createTextNode('Welcome to HackItUp Sneak Peek, ' + questions[0].answer + '!'))
           },
           error: function(xhr, textStatus, errorThrown) {
               document.getElementById("loading-spinner").style.visibility = "hidden";
               if (xhr.status == 409) {
-                  h1.appendChild(document.createTextNode('You have already registered for Hackbox v2!'))
+                  h1.appendChild(document.createTextNode('You have already registered for HackItUp Sneak Peek'))
               }
               else if (xhr.status == 400) {
                   h1.appendChild(document.createTextNode('Incorrect details. Please check the form again!'))
